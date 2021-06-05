@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "249653583389",
+    "project_id": "stonks-asv",
+    "storage_bucket": "stonks-asv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249653583389:android:71fbbec489601590cf30f4",
+        "android_client_info": {
+          "package_name": "com.example.stonks_asv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249653583389-dk7t1m6ijr3m4clol0h6inmrt304bttv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stonks_asv",
+            "certificate_hash": "74c0be92042539d303a19378ff885e7cc64fda31"
+          }
+        },
+        {
+          "client_id": "249653583389-avsdjneutii444nn9ebck14s0ao0l1jh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1iLmc2PCVE7mIY1rXqDt9Irb1maMiM3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249653583389-avsdjneutii444nn9ebck14s0ao0l1jh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+rootProject.name = "Stonks_ASV"
+include ':app'
