@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Stonks_ASV">
-        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".Game1"></activity>
+        <activity android:name=".RegisterActivity" />
         <activity android:name=".BeginActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".MainActivity">

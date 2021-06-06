@@ -6,6 +6,7 @@ public class User {
     private String name;
     private String email;
     private String password;
+    private String score1;
 
     public String getUid() {
         return uid;
@@ -40,6 +41,14 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getScore1() {
+        return score1;
+    }
+
+    public void setScore1(String score1) {
+        this.score1 = score1;
     }
 
     @Override

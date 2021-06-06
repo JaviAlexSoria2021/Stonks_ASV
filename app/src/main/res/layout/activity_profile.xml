@@ -10,9 +10,19 @@
     tools:context=".ProfileActivity">
 
     <TextView
+        android:id="@+id/tvName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ESTA ES LA PANTALLA DE PROFILE"
+        android:text="Nombre de usuario"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_margin="10dp"
         android:textAlignment="center"
         android:textSize="18sp"
         />

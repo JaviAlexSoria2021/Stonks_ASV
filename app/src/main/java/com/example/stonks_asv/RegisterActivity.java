@@ -97,15 +97,18 @@ public class RegisterActivity extends AppCompatActivity {
         mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(RegisterActivity.this, task -> {
             if(task.isSuccessful())
             {
+                String id = mAuth.getCurrentUser().getUid();
                 /*Map<String, Object> map = new HashMap<>();
                 map.put("name", name);
                 map.put("email", email);
                 map.put("password", password);*/
+                int scores = 0;
                 User user = new User();
-                user.setUid(UUID.randomUUID().toString());
+                user.setUid(id);
                 user.setName(name);
                 user.setEmail(email);
                 user.setPassword(password);
+                user.setScore1("0");
 
                 /*Game game = new Game();
                 game.setUid(UUID.randomUUID().toString());
@@ -113,7 +116,6 @@ public class RegisterActivity extends AppCompatActivity {
                 game.setDescription("Description");
                 game.setGender("Gender");
                 game.setDeveloper("Developer");
-
                 //String id = Objects.requireNonNull(mAuth.getCurrentUser().getUid());
                 //String id = mAuth.getCurrentUser().getUid();
                 Toast.makeText(MainActivity.this, reference.toString(), Toast.LENGTH_SHORT).show();
