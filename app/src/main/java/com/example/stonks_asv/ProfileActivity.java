@@ -47,7 +47,7 @@ public class ProfileActivity extends AppCompatActivity {
             }
         });
 
-        getUserInfo();
+        //getUserInfo();
     }
 
     private void getUserInfo()

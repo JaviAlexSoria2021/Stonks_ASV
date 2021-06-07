@@ -10,6 +10,8 @@ import android.widget.Button;
 public class BeginActivity extends AppCompatActivity {
     private Button btnProfile;
     private Button btnGame1;
+    private Button btnRanking1;
+
 
 
     @Override
@@ -19,6 +21,7 @@ public class BeginActivity extends AppCompatActivity {
 
         btnProfile = (Button) findViewById(R.id.btnProfile);
         btnGame1 = (Button) findViewById(R.id.btnGame1);
+        btnRanking1 = (Button) findViewById(R.id.btnRanking1);
 
         btnProfile.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,6 +33,12 @@ public class BeginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(BeginActivity.this, Game1.class));
+            }
+        });
+        btnRanking1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(BeginActivity.this, Ranking1.class));
             }
         });
     }
